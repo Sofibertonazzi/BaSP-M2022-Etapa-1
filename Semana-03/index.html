@@ -5,24 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Trackgenix</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="hamburger-menu">Hamburger-menu-icon</a>
-        <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">Linkedin</a>
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer">Github</a>
+        <div class="menu-icon">
+          <a href="#"><i class="fa-solid fa-bars"></i></a>
+        </div>
+        <div class="social-media"> 
+          <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+          <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+          <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+          <a href="https://github.com" target="_blank"><i class="fa-brands fa-github-square"></i></a>
+        </div>
       </nav>
     </header>
-    <aside>
-      <p>Menu</p>
-      <ul>
-        <li>
+    <aside class="side-bar">
+      <p>Menu</p class="menu">
+      <ul class="links">
+        <li> 
           <a href="home">Home</a>
         </li>
         <li>
@@ -35,8 +42,8 @@
           <a href="contact">Contact</a>
         </li>
       </ul>
-      <p>Get in touch</p>
-      <ul>
+      <p>Get in touch</p> 
+      <ul class="links2">
         <li>
           <a href="workedhours">Worked Hours</a>
         </li>
@@ -51,7 +58,7 @@
         </li>
       </ul>
       <p>Trackgenix</p>
-      <p>
+      <p class="lorem">
          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
          when an unknown printer took a galley of type and scrambled it to make a type
          specimen book.
