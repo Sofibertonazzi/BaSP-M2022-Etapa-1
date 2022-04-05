@@ -12,8 +12,8 @@ header{
 
 .menu-icon{
   position: fixed;
-  margin-left: 10px;
-  margin-top: 20px;
+  left: 15%;
+  padding-top: 30px;
   color: rgb(55, 56, 103);
   }
 
@@ -30,6 +30,15 @@ i {
   margin-left: 20px;
 }
 
+.header-bar{
+  float: right;
+  width: 98%;
+  margin-right: 1%;
+  margin-top: 20px;
+  border: 1px solid;
+  color:black
+  
+}
 
 .side-bar{
   position: fixed;
@@ -73,4 +82,25 @@ aside p {
   margin-top: 25px;
   margin-bottom: 42px;
   line-height: 20px;
+}
+
+.bar{
+  width: 65%;
+  border: 1px solid;
+  color: black;
+  margin: 30px;
+}
+
+.title{
+  width: 79%;
+    float: right;
+    margin-top: 30px;
+}
+
+h1{
+  margin-bottom:1%;
+  font-size: 50px;
+  
+  color: rgb (55, 56, 103);
+  text-shadow: 2px 2px 2px #373867;
 }
