@@ -250,32 +250,46 @@
           </article>
         </div>
       </section>
-      <section>
-        <h2>Request information:</h2>
+      <section class="request-information">
+        <div class="title">
+          <h2>Request information:</h2>
+        </div>
         <form action="submit">
-          <input type="text" placeholder="Name">
-          <input type="text" placeholder="Email">
-          <input type="checkbox" name="send-copy">
-          <label for="send-copy">Send me a copy</label>
-          <select name="category">
+          <input type="text" placeholder="Name" id="name" />
+          <input type="text" placeholder="Email" id="email" />
+          <div class="send-copy">
+            <label for="send-copy">Send me a copy</label>
+            <input type="checkbox" name="send-copy" />
+          </div>
+          <select name="category" id="select">
             <option value="" disabled selected>Category</option>
             <option value="human-resources">Human Resources</option>
             <option value="systems">Systems</option>
             <option value="commercialization">Commercialization</option>
           </select>
-          <textarea name="message" placeholder="Send your message" cols="70" rows="20"></textarea>
-          <input type="checkbox" name="recaptcha">
-          <label for="recaptcha">I am a human</label>
-          <button type="submit">Send message</button>
+          <textarea
+            name="message"
+            placeholder="Send your message"
+            cols="70"
+            rows="20"
+            id="textarea"
+          ></textarea>
+          <div class="send-message">
+            <input type="checkbox" name="recaptcha" id="recaptcha" />
+            <label for="recaptcha">I am a human</label>
+            <button type="submit">Send message</button>
+          </div>
         </form>
       </section>
-      <footer>
+    </div>
+    <footer>
+      <div class="ol-1">
         <p>Products</p>
         <ol>
           <li>
             <a href="features">Features</a>
           </li>
-           <li>
+          <li>
             <a href="downloads">Downloads</a>
           </li>
           <li>
@@ -285,6 +299,8 @@
             <a href="extras">Extras</a>
           </li>
         </ol>
+      </div>
+      <div class="ol-2">
         <p>Company</p>
         <ol>
           <li>
@@ -300,6 +316,8 @@
             <a href="blog">Blog</a>
           </li>
         </ol>
+      </div>
+      <div class="ol-3">
         <p>Support</p>
         <ol>
           <li>
@@ -315,24 +333,39 @@
             <a href="contact">Contact</a>
           </li>
         </ol>
-        <button type="prev">PREV</button>
-        <a href="page1">1</a>
-        <a href="page2">2</a>
-        <a href="page3">3</a>
-        <a href="extra-page">...</a>
-        <a href="page8">8</a>
-        <a href="page9">9</a>
-        <a href="page10">10</a>
-        <button type="next">NEXT</button>
-        <section>
-          <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">Linkedin</a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer">Github</a>
-        </section>
+      </div>
+      <div class="pages">
+        <div class="header-bar"></div>
+        <div class="footer-buttons">
+          <button id="button-prev">PREV</button>
+          <a href="page1">1</a>
+          <a href="page2">2</a>
+          <a href="page3">3</a>
+          <a href="extra-page">...</a>
+          <a href="page8">8</a>
+          <a href="page9">9</a>
+          <a href="page10">10</a>
+          <button id="button-next">NEXT</button>
+        </div>
+      </div>
+      <div class="footer-social-media">
+        <a href="https://facebook.com/" target="_blank">
+          <i class="fa-brands fa-facebook-square"></i>
+        </a>
+        <a href="https://twitter.com" target="_blank">
+          <i class="fa-brands fa-twitter-square"></i>
+        </a>
+        <a href="https://linkedin.com" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank">
+          <i class="fa-brands fa-instagram-square"></i>
+        </a>
+        <a href="https://github.com" target="_blank">
+          <i class="fa-brands fa-github-square"></i>
+        </a>
         <p>Copyright 2022</p>
-      </footer>
-    </body>
-  </html>
-  
+      </div>
+    </footer>
+  </body>
+</html>
