@@ -1,50 +1,42 @@
 body {
   color: #373867;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-header{
+header {
   position: relative;
   width: 80%;
   height: 100px;
   float: right;
 }
 
-.menu-icon{
+a {
+  text-decoration: none;
+}
+
+.menu-icon {
   position: fixed;
   left: 15%;
   padding-top: 30px;
   color: rgb(55, 56, 103);
-  }
-
-.social-media{
-  position: relative;
-  width: 20%;
-  float: right;
-  margin-top: 20px;
-  margin-right: 60px;
 }
 
-i {
-  font-size: 22px;
-  margin-left: 20px;
-}
-
-.header-bar{
-  float: right;
-  width: 98%;
-  margin-right: 1%;
-  margin-top: 20px;
-  border: 1px solid;
-  color:black
-  
-}
-
-.side-bar{
+aside {
   position: fixed;
-  width: 20%;
-  height: 100%;
-  background-color: #AFAFC2;
+  width: 270px;
+  height: 100vh;
+  background: #afafc2;
+  box-sizing: border-box;
+}
+
+aside a {
+  color: #373867;
+}
+
+.links li {
+  font-size: 12px;
+  padding-top: 13px;
+  color: #373867;
 }
 
 aside p {
@@ -55,7 +47,24 @@ aside p {
   margin-bottom: 20px;
 }
 
-.links{
+.social-media {
+  position: relative;
+  width: 20%;
+  float: right;
+  margin-top: 20px;
+  margin-right: 60px;
+}
+
+.header-bar {
+  float: right;
+  width: 98%;
+  margin-right: 1%;
+  margin-top: 20px;
+  border: 1px solid;
+  color: black;
+}
+
+.links {
   font-size: 13px;
   margin-left: 40px;
   margin-top: 60px;
@@ -63,18 +72,19 @@ aside p {
   color: #373867;
 }
 
-.links2{
+.links2 {
   font-size: 13px;
   margin-left: 40px;
   line-height: 20px;
   margin-top: 60px;
   color: #373867;
 }
- a{
+
+a {
   text-decoration: none;
- }
+}
 
-.lorem{
+.lorem {
   width: 50%;
   font-size: 13px;
   font-weight: 100;
@@ -84,57 +94,361 @@ aside p {
   line-height: 20px;
 }
 
-.bar{
+.bar {
   width: 65%;
   border: 1px solid;
   color: black;
   margin: 30px;
 }
 
-.title{
-  width: 79%;
+.title {
+  width: 82.8%;
   float: right;
   margin-top: 30px;
+  left: 291px;
 }
 
-  
-h1{
-  margin-bottom:1%;
+h1 {
+  margin-bottom: 1%;
   font-size: 50px;
   color: rgb (55, 56, 103);
   text-shadow: 2px 2px 2px #373867;
 }
 
-.subtitle{
-  position: relative;
-  width: 100%;
-  height: 100px;
-  float: right;
+.title h2 {
+  position: absolute;
+  top: 250px;
+  font-size: 40px;
+  color: rgb (55, 56, 103);
+  text-shadow: 2px 2px 2px #373867;
 }
 
-.subtitle h2{
-  font-size: 25px;  
+.subtitle {
+  position: relative;
+  width: 75%;
+  height: 100px;
+  float: left;
+}
+
+.subtitle h2 {
+  font-size: 25px;
   margin-left: 23%;
- 
   line-height: 150px;
   color: rgb(55, 56, 103);
   text-shadow: 0px 2px 2px #373867;
-  
 }
- .image01{
+
+.image01 {
+  float: right;
+  margin-right: 1%;
+  margin-top: -150px;
+  height: 650px;
+  width: 480px;
+  background-size: contain;
+}
+
+.p1 {
   position: absolute;
-    display: inline-block;
-    top: 16%;
-    width: 33%;
-    height: 100%;
-    margin-left: 65%;
-}
-.p1{
+  width: 517px;
+  height: 386px;
+  left: 291px;
+  top: 316px;
   font-size: 18px;
-    color: rgb(55, 56, 103);
-    margin-top: 2%;
-    margin-left: 24%;
-    margin-right: 43%;
-    line-height: 25px;
-    text-align: justify;
+  line-height: 21px;
+}
+
+.landing-section button {
+  position: absolute;
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 43%;
+  margin-left: 290px;
+  background-color: white;
+  padding: 20px 90px;
+}
+
+.history-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  top: 600px;
+  box-sizing: border-box;
+}
+
+.history-section .title {
+  width: 82.8%;
+  float: right;
+  margin-top: 30px;
+  left: 291px;
+}
+
+.history-section .img01 {
+  position: absolute;
+  float: right;
+  left: 290px;
+  top: 320px;
+  height: 400px;
+  width: 650px;
+  background-size: contain;
+}
+
+.history-section .p1 {
+  position: absolute;
+  width: 517px;
+  height: 386px;
+  left: 1000px;
+  top: 316px;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.history-section .p2 {
+  position: absolute;
+  width: 517px;
+  height: 386px;
+  left: 291px;
+  top: 750px;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.history-section .img02 {
+  position: absolute;
+  float: right;
+  left: 1000px;
+  top: 750px;
+  height: 400px;
+  width: 650px;
+  background-size: contain;
+}
+
+.functionalities-section {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  top: 600px;
+  box-sizing: border-box;
+}
+
+.functionalities-section .title {
+  width: 82.8%;
+  float: right;
+  margin-top: 30px;
+  left: 291px;
+}
+
+.articles {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  top: 350px;
+  left: 290px;
+  box-sizing: border-box;
+}
+
+article {
+  height: 400px;
+}
+
+article p {
+  position: absolute;
+  left: 130px;
+  top: 70px;
+  width: 400px;
+  height: 300px;
+}
+
+article img {
+  width: 120px;
+  height: 120px;
+}
+
+.article-1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.article-2 {
+  position: absolute;
+  left: 600px;
+  top: 0px;
+}
+
+.article-3 {
+  position: absolute;
+  left: 0px;
+  top: 200px;
+}
+
+.article-4 {
+  position: absolute;
+  left: 600px;
+  top: 200px;
+}
+
+article h3 {
+  font-size: 30px;
+  top: 10px;
+}
+
+#reasons-section {
+  bottom: -1000px;
+}
+
+.request-information {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  top: 600px;
+  margin-bottom: 150px;
+  box-sizing: border-box;
+}
+.request-information .title {
+  width: 82.8%;
+  float: right;
+  margin-top: 30px;
+  left: 291px;
+}
+
+.request-information form {
+  position: absolute;
+  top: 400px;
+  border-radius: 5px;
+}
+
+#name {
+  position: absolute;
+  padding: 5px 80px;
+  left: 500px;
+}
+
+#email {
+  position: absolute;
+  padding: 5px 100px;
+  left: 1100px;
+}
+
+.send-copy {
+  position: absolute;
+  top: 30px;
+  width: 200px;
+  left: 1100px;
+}
+
+#select {
+  position: absolute;
+  padding: 5px 405px;
+  top: 100px;
+  left: 500px;
+}
+
+#textarea {
+  position: absolute;
+  width: 940px;
+  top: 250px;
+  left: 500px;
+}
+
+.send-message {
+  position: absolute;
+  width: 800px;
+  left: 1160px;
+  top: 600px;
+}
+
+.send-message button {
+  padding: 5px 30px;
+  border-radius: 5px;
+  background-color: pink;
+  color: white;
+}
+
+footer {
+  position: absolute;
+  left: 500px;
+}
+
+.ol-1 {
+  position: absolute;
+  top: 1000px;
+}
+
+.ol-2 {
+  position: absolute;
+  top: 1000px;
+  left: 430px;
+}
+
+.ol-3 {
+  position: absolute;
+  top: 1000px;
+  left: 860px;
+}
+
+footer p {
+  font-size: 20px;
+  color: rgb(55, 56, 103);
+}
+
+footer a {
+  color: rgb(55, 56, 103);
+}
+
+footer ol {
+  margin-left: 18px;
+  margin-top: 20px;
+  list-style: decimal;
+}
+
+footer ol li {
+  margin-bottom: 10px;
+}
+
+.pages {
+  position: absolute;
+  top: 1200px;
+  width: 1000px;
+}
+
+.pages .header-bar {
+  margin-bottom: 20px;
+}
+
+.footer-buttons {
+  margin-left: 150px;
+}
+
+.pages button {
+  border-color: #373867;
+  color: #373867;
+  background-color: transparent;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+.pages a {
+  margin: 0 30px;
+}
+
+#button-next {
+  position: absolute;
+  left: 800px;
+}
+
+.footer-social-media {
+  display: inline-block;
+  position: relative;
+  top: 1500px;
+  left: 350px;
+  height: 100px;
+}
+
+.footer-social-media a {
+  margin: 20px 20px;
+}
+
+.footer-social-media p {
+  margin: 200px 90px;
+  font-size: 16px;
 }
