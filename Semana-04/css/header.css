@@ -1,0 +1,23 @@
+.menu-icon {
+    font-size: 20px;
+    position: fixed;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+.title1 {
+    background-color: #ededed;
+    display: flex;
+}
+
+.menu-icon {
+    display: flex;
+    font-size: 160%;
+    justify-content: end;
+    padding-top: 10px;
+    padding-right: 10px;
+    flex: 1;
+}
