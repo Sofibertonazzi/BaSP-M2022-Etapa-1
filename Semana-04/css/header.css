@@ -1,23 +1,16 @@
-.menu-icon {
-    font-size: 20px;
-    position: fixed;
-}
 
-header {
-    position: fixed;
-    width: 100%;
-}
-
-.title1 {
+.header-content {
     background-color: #ededed;
     display: flex;
+    justify-content: center;
 }
 
-.menu-icon {
-    display: flex;
-    font-size: 160%;
-    justify-content: end;
-    padding-top: 10px;
-    padding-right: 10px;
-    flex: 1;
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    margin-right: 120px;
 }
