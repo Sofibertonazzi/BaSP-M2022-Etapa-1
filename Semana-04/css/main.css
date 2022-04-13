@@ -192,4 +192,24 @@ body {
     border-radius: 5px;
     margin-left: 6%;
   }
-}
+
+    @media (max-width: 800px) {
+        nav {
+        display: none;
+        }
+        .articles-group {
+        flex-direction: column;
+        }
+    }
+    
+    @media (min-width: 760px) {
+        .page {
+        margin-top: 0;
+        margin-left: 15%;
+        max-width: 80%;
+        }
+        nav {
+        display: flex;
+        }
+    }
+    
