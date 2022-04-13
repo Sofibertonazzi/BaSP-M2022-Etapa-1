@@ -14,7 +14,7 @@ aside {
   .menu-icon-aside {
     display: flex;
     flex-basis: 100%;
-    font-size: 40px;
+    font-size: 20x;
     justify-content: flex-end;
     margin: 20px;
   }
