@@ -1,16 +1,33 @@
-
-.header-content {
-    background-color: #ededed;
-    display: flex;
-    justify-content: center;
-}
-
-h1 {
+header {
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    background-color: #e2dede;
+  }
+  
+  h1 {
+    text-align: center;
     font-size: 40px;
-    font-weight: bold;
-}
-
-h2 {
+  }
+  
+  h2 {
+    text-align: left;
     font-size: 20px;
-    margin-right: 120px;
-}
+  }
+  
+  .hamburger-menu {
+    position: absolute;
+    margin-top: 5%;
+    font-size: 40px;
+    font-weight: 300;
+    color: #373867;
+  }
+  
+  .title-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 0px 20px;
+  }
