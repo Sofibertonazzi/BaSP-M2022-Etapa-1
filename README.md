@@ -11,5 +11,5 @@ Author: Sofía Bertonazzi
 # Week 04 - CSS Flexbox
 ## Responsive design
 This is the responsive design of pages for mobile, tablet and desktop.
-https://github.com/Sofibertonazzi/BaSP-M2022-Etapa-1/tree/master/Semana-04
+https://sofibertonazzi.github.io/BaSP-M2022-Etapa-1/Semana-04/
 Author: Sofía Bertonazzi
