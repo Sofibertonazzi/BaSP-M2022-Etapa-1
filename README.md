@@ -12,7 +12,7 @@ This is the responsive design of pages for mobile, tablet and desktop.
 https://sofibertonazzi.github.io/BaSP-M2022-Etapa-1/Semana-04/
 
 # Week 05 - Javascript
-# Javascript exercises
+## Javascript exercises
 These are the exercises done with javascript along with the corrections of week 04.
 https://sofibertonazzi.github.io/BaSP-M2022-Etapa-1/Semana-04/
 https://sofibertonazzi.github.io/BaSP-M2022-Etapa-1/Semana-05/
