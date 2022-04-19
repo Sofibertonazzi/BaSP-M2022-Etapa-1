@@ -1,14 +1,17 @@
 aside {
+  position: fixed;
+  top: 0;
+  left: 0;
   display: flex;
   flex-direction: column;
   width: 14%;
   height: 100%;
-  position: fixed;
   background-color: #afafc2;
   overflow: scroll;
   z-index: 3;
-  align-self: flex-start;
+  align-content: flex-start;
   margin-right: 87%;
+  justify-content: flex-start;
 }
 
 .menu-icon-aside {
@@ -19,18 +22,21 @@ aside {
   margin: 20px;
 }
 
+aside ul {
+  padding-left: 10px;
+}
+
+aside ul li {
+  left: 0;
+  list-style: none;
+  align-self: flex-start;
+}
+
 aside ul li a {
   font-size: 12px;
   padding-top: 13px;
-  padding-left: 47px;
   color: #373867;
-}
-
-aside p {
-  font-size: 14px;
-  font-weight: bold;
-  margin-left: 29px;
-  margin-bottom: 20px;
+  text-decoration: none;
 }
 
 aside p {
@@ -38,7 +44,8 @@ aside p {
   font-size: 12px;
   font-weight: 100;
   margin-top: 25px;
-  margin-bottom: 42px;
+  margin-bottom: 10px;
+  margin-left: 5px;
   line-height: 20px;
 }
 
