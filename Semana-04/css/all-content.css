@@ -1,0 +1,33 @@
+nav {
+  display: none;
+}
+aside {
+  display: none;
+}
+
+a {
+  color: #373867;
+  text-decoration: none;
+}
+
+.articles-group {
+  flex-direction: column;
+}
+.page {
+  max-width: 80%;
+}
+.history-section {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  aside {
+    display: block;
+  }
+  .hamburger-menu {
+    display: none;
+  }
+  .history-section {
+    display: block;
+  }
+}
