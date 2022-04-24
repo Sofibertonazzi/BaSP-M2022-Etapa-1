@@ -17,3 +17,4 @@ These are the exercises done with javascript along with the corrections of week 
 https://sofibertonazzi.github.io/BaSP-M2022-Etapa-1/Semana-04/
 https://sofibertonazzi.github.io/BaSP-M2022-Etapa-1/Semana-05/
 Author: Sofía Bertonazzi
+
