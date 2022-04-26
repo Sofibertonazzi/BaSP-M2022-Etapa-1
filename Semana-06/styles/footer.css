@@ -1,80 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=BioRhyme:wght@700&family=Roboto:wght@300;400;700&display=swap");
 
 footer {
-  bottom: 0;
   width: 100vw;
-  margin-top: 30px;
-  color: #373867;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  margin-top: 20px;
+  background-color: #ededed;
 }
 
 .footer-container {
   display: flex;
   flex-direction: column;
+  height: 100px;
   align-items: center;
-}
-
-footer h3 {
-  font-family: "BioRhyme", serif;
-  font-size: 24px;
-}
-
-ol {
-  list-style: none;
-  text-align: left;
-  font-family: "BioRhyme", serif;
-  font-size: 12px;
-}
-
-footer i {
-  margin: 0 6px 10px 6px;
-  font-size: 22px;
-}
-
-footer p {
-  font-size: 12px;
-  margin-bottom: 30px;
-}
-
-footer a {
-  color: #496ef1;
-}
-
-.footer-dividing-bar {
-  display: none;
-  width: 77%;
-  margin: 0 21.7% 50px;
-  border: 1px solid #000;
-  background-color: #000;
-}
-
-.footer-buttons {
-  display: none;
-}
-
-.footer-networks {
-  display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  bottom: 0;
-  width: 100%;
-  background-color: #ededed;
-}
-
-.footer-networks p {
-  color: black;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-size: 12px;
 }
 
 .footer-social-media {
-  display: flex;
+  margin-bottom: 10px;
 }
 
 .footer-social-media a {
-  text-align: center;
+  padding: 0px 6px;
+  text-decoration: none;
   color: #373867;
+}
+
+.footer-container p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #000000;
 }

@@ -2,10 +2,10 @@
 
 body {
   display: flex;
-  height: 100%;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  height: 100vh;
 }
 
 body p {
@@ -14,6 +14,7 @@ body p {
 
 body h2 {
   font-size: 24px;
+  line-height: 30px;
   color: #373867;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -29,7 +30,7 @@ body h2 {
   justify-content: center;
   align-items: center;
   text-align: justify;
-  margin-top: 15%;
+  margin-top: 130px;
   max-width: 90%;
 }
 
@@ -86,6 +87,8 @@ p {
 
 .history-section {
   max-width: 90%;
+  margin-left: 60px;
+  align-self: center;
   text-align: left;
 }
 
@@ -149,6 +152,7 @@ p {
 .articles {
   display: flex;
   flex-direction: column;
+  margin-left: 30px;
 }
 
 article {
@@ -160,13 +164,13 @@ article {
 .articles-group {
   display: flex;
   flex-direction: row;
-  margin-right: 20px;
+  margin-right: 50px;
 }
 
 .article-text {
   display: flex;
-  margin-left: 30px;
   flex-direction: column;
+  margin: 10px 0 20px 30px;
 }
 
 .article-text h3 {
@@ -174,7 +178,13 @@ article {
   color: #373867;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  margin-bottom: -7px;
+}
+
+.article-1,
+.article-2,
+.article-3,
+.article-4 {
+  margin-left: 50px;
 }
 
 .request-information {
@@ -260,4 +270,83 @@ input[type="checkbox"] {
   border: none;
   border-radius: 5px;
   margin-left: 6%;
+}
+
+.lists-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0 0 160px;
+}
+
+.lists-container .solid {
+  width: 150px;
+}
+.pages-numbers {
+  margin-top: 20px;
+  align-self: center;
+}
+
+@media (min-width: 768px) {
+  .history-img-section .p1 {
+    display: none;
+  }
+
+  .history-img-section .p2 {
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  .welcome-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .welcome-msg-web {
+    margin-left: 10%;
+    width: 40%;
+  }
+  .image01 {
+    display: none;
+  }
+  .image02 {
+    display: inline;
+    width: 30%;
+    height: auto;
+    margin-left: 3%;
+    margin-top: 2%;
+  }
+  .page {
+    margin-left: 15%;
+  }
+  .title {
+    text-align: left;
+  }
+  .subheader {
+    display: none;
+  }
+  .menu-icon {
+    display: none;
+  }
+  .history-section {
+    display: block;
+  }
+  .history-section img {
+    display: inline;
+  }
+  .articles-group {
+    flex-direction: row;
+  }
+  .center button {
+    background-color: transparent;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    width: 20%;
+  }
+  .lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 }

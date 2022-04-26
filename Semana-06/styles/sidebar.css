@@ -1,34 +1,75 @@
 aside {
-    position: fixed;
-    top: 0;
-    left: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  width: 14%;
+  height: 100%;
+  background-color: #afafc2;
+  overflow: scroll;
+  z-index: 3;
+  align-content: flex-start;
+  margin-right: 87%;
+  justify-content: flex-start;
+  display: none;
+}
+
+.menu-icon-aside {
+  display: flex;
+  flex-basis: 100%;
+  font-size: 20x;
+  justify-content: flex-end;
+  margin: 20px;
+}
+
+.aside-separator {
+  border-top: 1px solid #373867;
+  border-radius: 5px;
+  height: 1px;
+  width: 70%;
+  margin-left: 5%;
+}
+
+aside ul {
+  padding-left: 30px;
+}
+
+aside ul li {
+  left: 0;
+  list-style: none;
+  align-self: flex-start;
+}
+
+aside ul li a {
+  font-size: 14px;
+  color: #373867;
+  text-decoration: none;
+}
+
+aside p {
+  width: 50%;
+  font-size: 16px;
+  font-weight: 100;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.aside-bar {
+  width: 70%;
+  border: 1px solid #000;
+  background-color: #000;
+  margin: 34px auto;
+}
+@media (min-width: 1024px) {
+  aside {
     display: flex;
-    flex-direction: column;
-    width: 14%;
-    height: 100%;
-    background-color: #afafc2;
-    overflow: scroll;
-    z-index: 3;
-    align-content: flex-start;
-    margin-right: 87%;
-    justify-content: flex-start;
   }
-  
-  .menu-icon-aside {
-    display: flex;
-    flex-basis: 100%;
-    font-size: 20x;
-    justify-content: flex-end;
-    margin: 20px;
-  }
-  
-  .aside-separator {
-    border-top: 1px solid #373867;
-    border-radius: 5px;
-    height: 1px;
-    width: 70%;
-    margin-left: 5%;
-  }
+}
+
   
   aside ul {
     padding-left: 30px;

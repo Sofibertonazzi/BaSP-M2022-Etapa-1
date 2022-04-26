@@ -2,51 +2,49 @@
 
 header {
   position: fixed;
-  top: 0%;
-  height: 128px;
-  width: 100%;
+}
+
+.header-content {
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   background-color: #ededed;
+  align-items: center;
 }
 
 h1 {
-  text-align: center;
-  font-size: 40px;
-  color: #373867;
   font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #373867;
 }
 
-.subheader {
-  margin-top: 8px;
-  margin-left: 10px;
-  text-align: left;
-  font-size: 20px;
-  color: #373867;
+h2 {
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  text-shadow: rgba(0, 0, 0, 0.325) 0 0 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #373867;
+  margin: 0px 10px;
 }
 
 .solid {
-  width: 267px;
+  width: 240px;
+  margin-top: 3px;
   height: 1px;
-  margin-top: -20px;
   background-color: black;
 }
 
-.fa-bars {
-  position: absolute;
-  margin-top: 8%;
-  margin-left: 5%;
-  font-size: 25px;
-  font-weight: 300;
+.header-link a {
+  text-align: center;
+  font-size: 15px;
   color: #373867;
-}
-
-.title-container {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  width: 100%;
-  align-items: center;
-  padding: 0px 20px;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
 }
