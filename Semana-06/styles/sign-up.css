@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.page {
+  margin-top: 120px;
+}
+
+.sign-up-container {
+  background-color: #ebebf0;
+  border-radius: 8px;
+  width: 80vw;
+}
+
+.items-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.items-container h2 {
+  padding: 40px 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 18px;
+  color: #373867;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.column-1,
+.column-2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px 5px;
+  border: 1px solid #373867;
+  box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 4px;
+  margin-top: 24px;
+  font-weight: 500;
+  background-color: transparent;
+}
+
+input[type="text"]::placeholder {
+  font-weight: 500;
+  font-size: medium;
+  color: #979797;
+}
+
+.error-msg {
+  padding-top: 5px;
+  color: crimson;
+}
+
+.validated {
+  color: transparent;
+}
+
+form button {
+  width: 83%;
+  height: 37px;
+  align-self: center;
+  background-color: #f56a6a;
+  border: 1px solid #373867;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 4px;
+  margin: 5% 0 5% 0;
+}
+
+@media (min-width: 1024px) {
+  .columns {
+    display: flex;
+    flex-direction: row;
+  }
+}
