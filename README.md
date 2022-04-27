@@ -16,5 +16,9 @@ https://sofibertonazzi.github.io/BaSP-M2022-Etapa-1/Semana-04/
 These are the exercises done with javascript along with the corrections of week 04.
 https://sofibertonazzi.github.io/BaSP-M2022-Etapa-1/Semana-04/
 https://sofibertonazzi.github.io/BaSP-M2022-Etapa-1/Semana-05/
-Author: Sofía Bertonazzi
 
+# Week 06 - Javascript DOM
+## Javascript DOM exercises
+These are the responsive designs along with their Login and Sign Up validations.
+https://sofibertonazzi.github.io/BaSP-M2022-Etapa-1/Semana-06/views/
+Author: Sofía Bertonazzi
