@@ -88,7 +88,7 @@ p {
 .history-section {
   margin-left: 30px;
   max-width: 90%;
-  
+
   align-self: center;
   text-align: left;
 }
@@ -131,6 +131,10 @@ p {
 .history-img-section2 p {
   margin-left: 0;
   margin-right: 3%;
+}
+
+.history-section .p2 {
+  display: none;
 }
 
 .functionalities-section {
@@ -290,18 +294,31 @@ input[type="checkbox"] {
 .lists-container .solid {
   width: 150px;
 }
+
 .pages-numbers {
-  margin-top: 20px;
-  align-self: center;
+  display: none;
 }
 
+.pages-numbers a {
+  margin: 0 5px;
+}
 @media (min-width: 768px) {
+  .image01 {
+    height: 250px;
+  }
+
   .history-img-section .p1 {
     display: none;
   }
 
   .history-img-section .p2 {
     display: block;
+  }
+
+  .pages-numbers {
+    display: flex;
+    margin-top: 20px;
+    align-self: center;
   }
 }
 
@@ -336,9 +353,6 @@ input[type="checkbox"] {
   }
   .title {
     text-align: left;
-  }
-  .subheader {
-    display: none;
   }
   .menu-icon {
     display: none;

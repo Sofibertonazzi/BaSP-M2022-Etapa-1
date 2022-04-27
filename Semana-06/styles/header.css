@@ -9,7 +9,7 @@ header {
   height: 100px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   background-color: #ededed;
   align-items: center;
 }
@@ -41,10 +41,38 @@ h2 {
   background-color: black;
 }
 
+#menu-button {
+  position: absolute;
+  align-self: center;
+  left: 9px;
+}
+
+#sign-up-button {
+  position: absolute;
+  align-self: center;
+  right: 9px;
+}
+
 .header-link a {
   text-align: center;
   font-size: 15px;
   color: #373867;
   font-family: "Roboto", sans-serif;
   text-decoration: none;
+}
+
+.subheader {
+  display: none;
+}
+
+.menu-icon {
+  position: absolute;
+  align-self: center;
+  left: 9px;
+}
+
+@media (min-width: 1024px) {
+  .subheader {
+    display: block;
+  }
 }
