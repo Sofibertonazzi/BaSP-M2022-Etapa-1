@@ -49,7 +49,7 @@ window.onload = function () {
           Email: ${emailInput.value}
           Password: ${passwordInput.value}`);
         } else {
-          alert(`Email or password does not match`);
+          alert(`The data entered are incorrect or insufficient`);
         }
       }
     }

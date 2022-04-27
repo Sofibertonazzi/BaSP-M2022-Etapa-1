@@ -320,6 +320,10 @@ input[type="checkbox"] {
     margin-top: 20px;
     align-self: center;
   }
+  
+  .lists-container {
+    display: none;
+  }
 }
 
 @media (min-width: 1024px) {
