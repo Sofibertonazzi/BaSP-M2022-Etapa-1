@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=BioRhyme:wght@700&family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
 
 body {
@@ -302,6 +303,18 @@ input[type="checkbox"] {
 .pages-numbers a {
   margin: 0 5px;
 }
+
+.lists div h3 {
+  font-family: "BioRhyme", serif;
+  font-size: 24px;
+  margin-top: 15px;
+}
+
+ol li {
+  font-size: 12px;
+  color: #496ef1;
+  margin-top: 10px;
+}
 @media (min-width: 768px) {
   .image01 {
     height: 250px;
@@ -319,10 +332,6 @@ input[type="checkbox"] {
     display: flex;
     margin-top: 20px;
     align-self: center;
-  }
-  
-  .lists-container {
-    display: none;
   }
 }
 
